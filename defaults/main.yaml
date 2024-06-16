@@ -1,0 +1,26 @@
+---
+ssh_port: 22
+ssh_listen_address: "0.0.0.0"
+ssh_log_level: "INFO"
+ssh_login_grace_time: "2m"
+ssh_permit_root_login: "no"
+ssh_max_auth_tries: 6
+ssh_max_sessions: 10
+ssh_pubkey_authentication: "yes"
+ssh_authorized_keys_file: false
+ssh_password_authentication: "no"
+ssh_use_pam: "yes"
+ssh_allow_agent_forwarding: "yes"
+ssh_allow_tcp_forwarding: "yes"
+ssh_gateway_ports: "no"
+ssh_x11_forwarding: "yes"
+ssh_print_motd: "no"
+ssh_client_alive_interval: 45
+ssh_client_alive_count_max: 3
+ssh_use_dns: "yes"
+ssh_permit_tunnel: "no"
+ssh_banner: "none"
+ssh_allow_users: false
+ssh_allow_users_list: [""]
+ssh_allow_groups: false
+ssh_allow_groups_list: ["adm", "sudo"]
